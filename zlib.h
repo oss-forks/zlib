@@ -28,8 +28,8 @@
   (zlib format), rfc1951 (deflate format) and rfc1952 (gzip format).
 */
 
-#ifndef ZLIB_H__
-#define ZLIB_H__
+#ifndef ZLIB_H
+#define ZLIB_H
 
 #include "zconf.h"
 
@@ -1765,4 +1765,4 @@ ZEXTERN int            ZEXPORTVA gzvprintf Z_ARG((gzFile file,
 }
 #endif
 
-#endif /* ZLIB_H__ */
+#endif /* ZLIB_H */
