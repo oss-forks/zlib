@@ -1,4 +1,7 @@
 
+defines { HAVE_STDARG_H }
+defines:!winrt { HAVE_UNISTD_H }
+
 sources
 {
 	adler32.c
