@@ -2,6 +2,11 @@
 defines { HAVE_STDARG_H }
 defines:!winrt { HAVE_UNISTD_H }
 
+public_headers
+{
+	zlib.h
+}
+
 sources
 {
 	adler32.c
@@ -27,7 +32,6 @@ sources
 	trees.h
 	uncompr.c
 	zconf.h
-	zlib.h
 	zutil.c
 	zutil.h
 }
