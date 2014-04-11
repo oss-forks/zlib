@@ -53,3 +53,8 @@ sources
 	zutil.c
 	zutil.h
 }
+
+app_sources
+{
+	examples/gun.c
+}

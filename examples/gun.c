@@ -66,7 +66,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>       /* stat(), chmod() */
 #include <utime.h>          /* utime() */
-#include "zlib.h"           /* inflateBackInit(), inflateBack(), */
+#include "../zlib.h"        /* inflateBackInit(), inflateBack(), */
                             /* inflateBackEnd(), crc32() */
 
 /* function declaration */
